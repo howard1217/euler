@@ -5,7 +5,7 @@ public class P12 {
     public static void main(String[] args) {
         long value, start, finish;
         start = System.nanoTime();
-        System.out.println("/* Problem 11 */");
+        System.out.println("/* Problem 12 */");
         System.out.printf("Answer: %s\n", hdtn(500));
         finish = System.nanoTime();
         System.out.printf("Process Time = %s ms\n", (finish - start) / 1000000);
