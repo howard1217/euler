@@ -35,8 +35,7 @@ public class P14 {
         while (k > 1) {
             if (lenMap.containsKey(k)) {
                 result += lenMap.get(k);
-                lenMap.put((long) n, result);
-                return result;
+                break;
             }
             if (k % 2 == 0) k /= 2;
             else k = 3 * k + 1;
